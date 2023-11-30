@@ -57,6 +57,7 @@ const App = () => (
    <Guardian
        caHash={'xxxxxxx'}
        originChainId={'AELF'}
+       accelerateChainId={'tdVV'}
        onBack={() => {
            // back callback
        }}
@@ -73,6 +74,7 @@ export default App;
 | caHash        | caHash of the Portkey account                    | string                                            | -             | V1.5.0  |
 | className     | Customised class name                            | string                                            | -             | V1.5.0  |
 | originChainId | ID of the chain where user account is registered | ChainId                                           | -             | V1.5.0  |
+| accelerateChainId | ID of the chain where synchronisation of guardian is accelerated, done by initiating a transaction to quickly add the guardian | ChainId | - | V1.5.0 |
 | chainType     |                                                  | ChainType                                         | aelf          | V1.5.0  |
 | isErrorTip    | Is error tip set as default                      | boolean                                           | true          | V1.5.0  |
 | onError       | Callback of error                                | (error: {errorFields:string, error: any}) => void | -             | V1.5.0  |

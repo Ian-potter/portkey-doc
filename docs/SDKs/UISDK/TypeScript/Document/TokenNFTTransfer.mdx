@@ -36,7 +36,8 @@ Usage scenario: transfer token/NFT.
 ---
 
 <Columnar data={[
-  {title: 'Security detection', icon: '/img/ui-sdk/send-check-security.png', desc: [`This account needs to add more guardians to enhance security before proceeding`]},
+  {title: 'Security detection - synchronise guardian', icon: '/img/ui-sdk/send-check-sync.png', desc: [`While this account is recognised as secure on the registration chain, it is now in the process of synchronising its guardian to the current chain. Users can click "OK" to quickly add the guardian to the current chain, which is done by initiating a transaction.`]},
+  {title: 'Security detection - add guardian', icon: '/img/ui-sdk/send-check-security.png', desc: [`This account needs to add more guardians to enhance security before proceeding`]},
   {title: 'Check if the transaction meets the rules', icon: '/img/ui-sdk/send-check-payment-security.png', desc: [`If the transaction exceeds the limit, prompt the user to modify it first`, `Click "Modify" to set limits`]},
   {title: 'Set transfer limits', icon: '/img/ui-sdk/send-set-limit.png', desc: [`Set limit per transaction and daily limit for the token`, `Click "Send Request" and wait for enough approval from guardians to complete the settings`]},
   ]} 
