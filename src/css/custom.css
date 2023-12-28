@@ -94,3 +94,16 @@ table thead tr {
 .footer__title {
   color: var(--ifm-footer-title-color);
 }
+
+
+#search_input_react {
+  display: none;
+}
+.algolia-autocomplete .ds-dropdown-menu {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.algolia-autocomplete .ds-dropdown-menu::before {
+  display: none !important;
+}

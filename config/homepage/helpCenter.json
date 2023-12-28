@@ -1,0 +1,28 @@
+{
+  "label": "helpCenter",
+  "title": "helpCenter",
+  "description": "helpCenter",
+  "helpCenterContainer": {
+    "items": [
+      {
+        "title": "User Guide",
+        "description": "user guide is dedicated to users not familiar with portkey aa wallet and new to web3. so if you want to know how to use or operate portkey, this section is for you\n",
+        "link": "https://hoopox.feishu.cn/wiki/QheIwuzbNiGo3KkpIWVcJeMwnTh"
+      },
+      {
+        "title": "More About Portkey",
+        "description": "user guide is dedicated to users not familiar with portkey aa wallet and new to web3. so if you want to know how to use or operate portkey, this section is for you\n",
+        "link": "https://hoopox.feishu.cn/wiki/QheIwuzbNiGo3KkpIWVcJeMwnTh"
+      },
+      {
+        "title": "Industry Knowledge",
+        "description": "user guide is dedicated to users not familiar with portkey aa wallet and new to web3. so if you want to know how to use or operate portkey, this section is for you\n",
+        "link": "https://hoopox.feishu.cn/wiki/QheIwuzbNiGo3KkpIWVcJeMwnTh"
+      }
+    ]
+  },
+  "helpCenterHeader": {
+    "title": "Portkey Help Center",
+    "subtitle": "Hello, how can we help you?"
+  }
+}
